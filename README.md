@@ -43,7 +43,7 @@ student-portfolio/
 ## Design & technical approach
 
 - **HTML**: semantic elements throughout (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`), a real `<table>` for the skills summary, `<form>`s for the planner and contact page, and an embedded `<video>` on the homepage.
-- **CSS** — a single external stylesheet built mobile-first, using CSS custom properties for consistent theming, Flexbox for one-dimensional layouts (nav, forms), CSS Grid for two-dimensional layouts (project cards), fluid typography with `clamp()`, and accessibility details like `:focus-visible` and `prefers-reduced-motion` support.
+- **CSS**: a single external stylesheet built mobile-first, using CSS custom properties for consistent theming, Flexbox for one-dimensional layouts (nav, forms), CSS Grid for two-dimensional layouts (project cards), fluid typography with `clamp()`, and accessibility details like `:focus-visible` and `prefers-reduced-motion` support.
 - **JavaScript**: split by responsibility rather than one giant file:
   - `js/main.js`: mobile nav toggle, footer year (shared across all pages)
   - `js/planner.js`: array-backed task management (add/complete/delete), persisted with `localStorage`
