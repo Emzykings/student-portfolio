@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Adeitan — Student Portfolio</title>
+  <meta name="description" content="Student portfolio and academic management site for Emmanuel Adeitan, Data Science student at Miva Open University.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="brand">Emmanuel Adeitan</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm Emmanuel, turning data into decisions.</h1>
+          <p>
+            Welcome to my academic portfolio. I'm a Data Science student at
+            <strong>Miva Open University</strong>, building a foundation in
+            machine learning, statistics, and software engineering, and using
+            this site to track my growth, showcase my work, and manage my
+            academic life in one place.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View my projects</a>
+            <a href="contact.html" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo-frame">
+          <img src="assets/images/Emzyheadshot.jpg" alt="Portrait of Emmanuel Adeitan">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ INTRO VIDEO SECTION ============ -->
+    <section class="section">
+      <div class="container">
+        <h2>A short introduction</h2>
+        <p>A short welcome message, recorded in my own words.</p>
+
+        <video controls width="100%" style="max-width: 720px;">
+          <source src="assets/media/welcome-intro.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+    </section>
+
+    <!-- ============ BIO SECTION ============ -->
+    <section class="section">
+      <div class="container">
+        <h2>A little about my journey</h2>
+        <p>
+          I'm currently pursuing a BSc in Data Science at Miva Open University,
+          where I've focused on building strong foundations in statistics,
+          programming, and machine learning. This portfolio is both a showcase
+          of that work and a living academic planner I use to stay on top of
+          deadlines and goals throughout the term.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="current-year"></span> Emmanuel Adeitan</p>
+      <p><a href="contact.html">Let's connect →</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
